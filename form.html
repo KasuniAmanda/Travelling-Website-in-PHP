@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>safari</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div class="box3">
+    <div class="map">
+    <p class="title1">Would you like to be a part of our adventure? You can savor life to the fullest.</p>
+    <div class="imagesmap">
+    <img src="Book/smap.jpg">
+    <img src="Book/elephant.jpg">
+    </div>
+    <h4>What is a Safari?</h4>
+
+    <p>Many tourists who are not familiar with Sri Lanka ask the question – what is a safari?</p>
+
+    <p>A SAFARI is an exciting and adventurous way of seeing the 'real Sri Lanka'
+         because it enables you to view a variety of wildlife in their natural habitat.
+          As a result, going on a safari gives you an authentic experience of Sri Lanka.</p>
+
+    <p>Safaris can involve walking through the wilderness, driving in 4×4 vehicles, or
+         by flying in light aircraft. The purpose of a safari tour is to allow you to 
+         get intimate with the landscape and scenery.</p>
+
+    <p>While overland tours are mostly challenging, you need to be young at heart and
+         open-minded to get the best out of an overland safari trip. All safari vehicles
+          are custom-built to travel to remote parts of Sri Lanka, often on long, bumpy
+           roads, while allowing you to view wildlife from a safe distance in comfort.</p>
+    <h4>Why go on a Safari?</h4>
+    <ul>
+<li>Slow down and get in touch with the earth</li>
+<li>Experience wildlife in their natural environment</li>
+<li>Engage with local cultures and learn about their traditions</li>
+<li>Take part in adventurous outdoor activities</li>
+</ul>
+<p>The accommodation on safaris vary depending on your trip. Anything 
+    from basic two man tents through to tented camps and luxury lodges 
+    with en suite bathrooms. Certainly there is something to suit everyone!</p>
+
+
+</div>
+<div class="container">
+    <h1> Safari Adventure Booking</h1>
+    <form action="submit_form.php" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email" >Email:</label>
+            <input type="email" id="mail" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="location">Preferred Safari Location:</label>
+            <select id="location" name="location">
+                <option value="Mirissa">Mirissa</option>
+                <option value="Yala">Yala</option>
+                <option value="Unawatuna">Unawatuna</option>
+                <option value="Udawalawa">Udawalawa</option>
+                <option value="Hikkaduwa">Hikkaduwa</option>
+                <option value="Ridiyagama">Ridiyagama</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="date">Date of Safari:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="participants">Number of Participants:</label>
+            Adalt:
+            <input type="number" id="participants" name="participants" required>
+            Kids:
+            <input type="number" id="participants" name="participants" required>
+        </div>
+        
+        <div class="radio-container">
+            <label for="accommodation">Payment method:</label>
+            <input type="radio" id="cash" name="payment" value="cash">
+            <label for="luxury">Cash</label>
+            <input type="radio" id="credit" name="payment" value="credit">
+            <label for="standard">Credit card</label>
+            <input type="radio" id="debit" name="payment" value="debit">
+            <label for="standard">Debit  card</label><br><br>
+        </div>
+        <div class="form-group">
+            <label for="location">Accomadation:</label>
+            <select id="location" name="place">
+                <option value="Shanora">Shanora Beach</option>
+                <option value="Mirissa Blue Whale Holiday Hotel">Mirissa Blue Whale Holiday Hotel</option>
+                <option value="Somerset Mirissa">Somerset Mirissa</option>
+                <option value="Kingman Villa">Kingman Villa</option>
+                <option value="Mirissa Beach Villa">Mirissa Beach Villa</option>
+                <option value="Gglodge Mirissa">Gglodge Mirissa</option>
+                <option value="Skyview Cabin Unawatuna">Skyview Cabin Unawatuna</option>
+                <option value="The Waves Unawatuna">The Waves Unawatuna</option>
+                <option value="Eliysium">Eliysium</option>
+                <option value="Satin Doll">Satin Doll</option>
+                <option value="Villa 73 Unawatuna">Villa 73 Unawatuna</option>
+                <option value="Kings Landing Unawatuna">Kings Landing Unawatuna</option>
+                <option value="Rock Wild Yala">Rock Wild Yala</option>
+                <option value="Wild Culture Yala">Wild Culture Yala</option>
+                <option value="Elegantlake House">Elegantlake House</option>
+                <option value="Village Mango Resort Yala">Village Mango Resort Yala</option>
+                <option value="Hotel River Front">Hotel River Front</option>
+                <option value="Lavender Home Valasafari">Lavender Home Valasafari</option>
+                <option value="Refresh Hotel Hikkaduwa">Refresh Hotel Hikkaduwa</option>
+                <option value="Hikkaduwa Sandy Pearl Beach Resort">Hikkaduwa Sandy Pearl Beach Resort</option>
+                <option value="Hotel Finlanka">Hotel Finlanka</option>
+                <option value="Riff Hikkaduwa">Riff Hikkaduwa</option>
+                <option value="Hotel Refresh Blue">Hotel Refresh Blue</option>
+                <option value="Rominrich">Rominrich</option>
+                <option value="Kottawatta Villege">Kottawatta Villege</option>
+                <option value="Peacock Riversider">Peacock Riversider</option>
+                <option value="Elephant Trail">Elephant Trail</option>
+                <option value="Jungle Paradise">Jungle Paradise</option>
+                <option value="Athgira River Camping Udawalawa">Athgira River Camping Udawalawa</option>
+                <option value="Royal Reach Udawalawa">Royal Reach Udawalawa</option>
+                <option value="Kamatha Hotel & Restaurant">Kamatha Hotel & Restaurant</option>
+                <option value="Turtle Bay">Turtle Bay</option>
+                <option value="Hotel Camellia">Hotel Camellia</option>
+                <option value="Sobaya Residence">Sobaya Residence</option>
+                <option value="Cafe Ceylon">Cafe Ceylon</option>
+                <option value="Villa Blu Tangalle">Villa Blu Tangalle</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="date">Chek In:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+            <label for="date">Check Out:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="checkbox-group">
+            <label for="activities">Preferred Activities:</label>
+            <div class="check">
+                <label>
+                    <input type="checkbox" name="activities[]" value="Safari"> Safari
+                </label>
+                <label>
+                    <input type="checkbox" name="activities[]" value="Hiking"> Hiking
+                </label>
+                <label>
+                    <input type="checkbox" name="activities[]" value="Bird Watching"> Bird Watching
+                </label>
+                <label>
+                    <input type="checkbox" name="activities[]" value="Whale Watching">WHale Watching
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+        
+        <div class="form-group">
+            <input type="submit" class="submit1" value="Book Safari">
+        </div>
+    </form>
+</div>
+</div>
+<script>
+// JavaScript for calculating and displaying the total price
+    document.getElementById('safari').addEventListener('submit', function (event) {
+        event.preventDefault();
+        
+        // Get the number of adults and kids
+        const adults = parseInt(document.getElementById('adults').value) || 0;
+        const kids = parseInt(document.getElementById('kids').value) || 0;
+
+        // Get the check-in and check-out dates
+        const checkInDate = new Date(document.getElementById('date-check-in').value);
+        const checkOutDate = new Date(document.getElementById('date-check-out').value);
+
+        // Calculate the number of stay days
+        const oneDay = 24 * 60 * 60 * 1000; // One day in milliseconds
+        const stayDays = Math.round(Math.abs((checkOutDate - checkInDate) / oneDay));
+
+        // Define the day fee (you can change this value)
+        const dayFee = 100; // Change this to the actual day fee
+
+        // Calculate the total price
+        const totalPrice = (adults + 0.5 * kids) * stayDays * dayFee;
+
+        // Display the total price on the page
+        document.getElementById('total-price').innerHTML = 'Total Price of Safari: $' + totalPrice.toFixed(2);
+    });
+</script>    
+</body>
+</html>
