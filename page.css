@@ -1,0 +1,186 @@
+/*safari*/
+body{
+    background-color: #e7e7e7;
+}
+
+header img{
+    position: absolute;
+    object-fit: cover;
+    height: 650px;
+    width: 100%;
+}
+
+.header-content1{
+    position: absolute;
+    top: 65%;
+    color: var(--white-color);
+    margin: 0 400px;
+    transition: 0.3s ease;
+    text-align: center;
+    align-items: center;
+}
+
+.header-content1 h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: var(--text-shadow);
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.line{
+    width: 730px;
+    height: 4px;
+    background: #8b8b8b;
+    margin: 1px auto;
+    border-radius: 5px;
+}
+
+.header-content1 p{
+    color: #fff;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    text-shadow: var(--text-shadow);
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--box-shadow);
+}
+
+
+.navbar a{
+    color: white;
+    font-size: 16px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.logo{
+    color: white;
+    font-size: 25px;
+    padding: 30PX 50px;
+    font-weight: bold;
+    top: 15%;
+}
+.navbar{
+    height: 80px;
+    width: 1474px;
+    background: #8b8b8b;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+}
+.navbar li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 4px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+a:active,
+a:hover {
+    transition: 0.5s;
+    border: 2px solid white; 
+    text-decoration: none; 
+}
+
+
+
+
+
+.safari-section{
+    padding: 4.5rem 0;
+    margin-top: 700px;
+}
+
+.head{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.head span{
+    text-decoration: uppercase;
+}
+
+.head p{
+    font-size: 2.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*accomodation*/
+.image::after{
+    position: absolute;
+    content: "";
+}
+
+.image img{
+    transition: all 0.5s ease;
+    height: 200px;   
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 10%; 
+}
+
+.boxes:hover img{
+    transform: scale(1.2);
+}
+
+.boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1200px;
+        margin-left: 120px;
+        padding: 20px;
+        background-color: #ededed;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        margin-top: 20PX;
+}
+
+.paragraph{
+    margin-left: 80px;
+}
+
+.paragraph h3 {
+    margin-top: 0;
+    color: rgb(4, 17, 73);
+    margin-bottom: 10px;
+}
+
+.paragraph p {
+    color: #333;
+}
+
+#more{
+    display: none;
+}
+
+.paragraph h4 {
+    color: rgb(10, 127, 26);
+    margin-bottom: 10px;
+}    
+i.fas.fa-angle-right {
+        margin-left: 5px; 
+    }
+

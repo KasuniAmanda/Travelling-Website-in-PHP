@@ -1,0 +1,125 @@
+
+/*form styles////////////////////////////////////////*/
+.container {
+    border-radius: 60px;
+    padding: 70px;
+    width: 40%;
+    height: 1100px;
+    text-align: center;
+    border: 2px solid rgb(5, 3, 3);
+    background-color: #d4d1d1;
+    margin-left: 50px;
+    box-shadow: 5px 5px 10px black;
+}
+h1 {
+    font-family: Arial;
+    margin-top: 20px;
+    color: #004d00;
+}
+.form-group {
+    text-align: left;
+    margin: 10px 0px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #004d00;
+}
+input[type="text"], input[type="email"], select, textarea {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#mail{
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="date"], input[type="number"] {
+    width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #004d00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.radio-container {
+    display: flex;
+}
+.radio-container label {
+    margin-right: 50px;
+    margin-top: 10px; 
+}
+.check{
+    margin-left: 240px;
+}
+.checkbox-group {
+    text-align: left; 
+}
+#location{
+    width: 620px;
+}
+img{
+    height: 200px;
+    width:250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.imagesmap{
+    display: flex;
+}
+.box3{
+    display: flex;
+    width: 60%%;
+}
+.map{
+   width: 50%; 
+}
+.title1 {
+    color: rgb(34, 92, 51);
+    font-size: 3em;
+    text-align: center;
+    animation: fadeIn 8s;
+    font-weight: bolder;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 4;
+    }
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+h4{
+    color: #004d00;
+    font-size: 2em;
+    background-color: white;
+}
+li{
+    font-size: 20px;
+}
+
+
+   
+    
+
+
+
+
+
+
+
+
